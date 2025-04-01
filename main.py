@@ -2,7 +2,6 @@ import os
 import json
 import requests
 from datetime import datetime
-from google.colab import files
 from IPython.display import display, HTML, clear_output
 import ipywidgets as widgets
 
