@@ -6,6 +6,8 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from dotenv import load_dotenv
 
+app = FastAPI()
+
 # Cargar variables de entorno desde .env
 load_dotenv()
 
