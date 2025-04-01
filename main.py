@@ -2,7 +2,6 @@ import os
 import json
 import requests
 from datetime import datetime
-import ipywidgets as widgets
 
 # ======== CONFIGURA TU CLAVE API AQUÍ ========
 OPENROUTER_API_KEY = "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"
