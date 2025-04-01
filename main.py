@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ======== CONFIGURA TU CLAVE API AQUÍ ========
-OPENROUTER_API_KEY = os.getenv("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")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 # =============================================
 
 # Verifica que la API key esté configurada correctamente
