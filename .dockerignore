@@ -1,0 +1,26 @@
+# Archivos de Python innecesarios
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos virtuales
+venv/
+env/
+
+# Archivos de configuración local
+.env
+.venv
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Notebooks y datos temporales
+*.ipynb
+*.csv
+*.log
+
+# Carpeta de IDE
+.vscode/
+.idea/
