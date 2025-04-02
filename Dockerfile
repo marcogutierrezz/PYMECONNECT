@@ -7,7 +7,7 @@ WORKDIR /app
 # Copia los archivos necesarios
 COPY requirements.txt .
 COPY main.py .
-COPY templates/ ./templates/
+COPY index.html .
 COPY OPENROUTER_API_KEY.env .
 
 # Instala las dependencias
